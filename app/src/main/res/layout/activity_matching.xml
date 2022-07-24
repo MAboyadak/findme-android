@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home4">
+
+            <!--User profile Block-->
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/identifiedUserImage"
+                    android:src="@drawable/mobbg"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp" />
+                    <TextView
+                        android:text="M Aboyadak"
+                        android:id="@+id/identifiedUsername"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/identifiedImage"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="5dp"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:text="Full Name" />
+                    <TextView
+                        android:id="@+id/identifiedName"
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:text="Item Description" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_marginBottom="2dp">
+                    <TextView
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:text="Gender" />
+
+                    <TextView
+                        android:id="@+id/identifiedGender"
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:text="Item Description" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_marginBottom="2dp">
+
+                    <TextView
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:text="Age" />
+
+                    <TextView
+                        android:id="@+id/identifiedAge"
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:text="Item Description" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_marginBottom="2dp">
+
+                    <TextView
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:text="Number" />
+
+                    <TextView
+                        android:id="@+id/identifiedNumber"
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:text="Item Description" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_marginBottom="2dp">
+
+                    <TextView
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:text="City" />
+
+                    <TextView
+                        android:id="@+id/identifiedCity"
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:text="Item Description" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white"
+                    android:layout_marginBottom="2dp">
+
+                    <TextView
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:padding="5dp"
+                        android:text="Details" />
+                    <TextView
+                        android:id="@+id/identifiedDetails"
+                        android:layout_width="80pt"
+                        android:layout_height="wrap_content"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:text="Item Description" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+</LinearLayout>
